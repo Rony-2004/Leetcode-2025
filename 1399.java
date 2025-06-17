@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
   public int countLargestGroup(int n) {
     int[] count = new int[9 * 4 + 1];
     for (int i = 1; i <= n; ++i)
