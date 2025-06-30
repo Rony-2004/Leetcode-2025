@@ -14,6 +14,6 @@ public class Solution {
       digitSum += num % 10;
       num /= 10;
     }
-    return digitSum;
+    return digitSum;  // issue with this 
   }
 }
